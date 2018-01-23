@@ -1,16 +1,30 @@
 # Web Developing
 Starting Material
 
-## Pull and Push from Bitbucket using git
+## Clone and Push from Bitbucket using git
 
-Pull and Push from [Bitbucket](https://bitbucket.org/)
+Clone and Push from [Bitbucket](https://bitbucket.org/)
 
 ### Pull
 
-Pull from Bitbucket
+Clone from Bitbucket
 
+1. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
+
+2. Copy the clone command (either the SSH format or the HTTPS).
+	If you are using the SSH protocol, ensure your public key is in Bitbucket and loaded on the local system to which you are cloning.
+
+3. From a terminal window, change to the local directory where you want to clone your repository.
+
+4. Paste the command you copied from Bitbucket, for example:
+
+CLONE OVER HTTPS:
 ```
-Give examples
+ $ git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git
+ ```
+CLONE OVER SSH:
+```
+$ git clone git@bitbucket.org:teamsinspace/documentation-tests.git
 ```
 
 ### Push from Bitbucket
