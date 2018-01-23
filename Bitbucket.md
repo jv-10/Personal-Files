@@ -1,4 +1,4 @@
-#Clone and Push from Bitbucket using git
+# Clone and Push from Bitbucket using git
 
 Clone and Push from [Bitbucket](https://bitbucket.org/)
 
