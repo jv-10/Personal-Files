@@ -1,52 +1,69 @@
 # Start Project
 
-Mainly with wordpress using boilerplate
+With wordpress using boilerplate
 
 
 ## Steps
 
 
-1. Download from bitbucket
+1. Create folder
 
-Download either the boilerplate or the project.
+under var/www/<project name>
 
-[Guide here](https://github.com/jv-10/instructions/blob/master/Bitbucket.md)
+2. Copy boilerplate
 
-2. Navigate to folder
+Copy wp-boilerplate to folder, leave .git!
 
-Go to your Projects folder in your Dektop
-Example:
+3. Create entry in hosts file
+
+4. Create database
+
+5. change .env file
 ```
-cd /var/wwww/<project name>
+cd /var/www/<project name>/private/.env
 ```
 
-3. Install npm
+6. Install npm
 
 ```
 npm install
 ```
 
-4. Create database
-
-Example:
-Dbeaver
-
-5. Create entry in hosts file
-
-### If using Boilerplate keep reading
-
-6. Rename .env file
-
-Rename from example.env to .env
-```
-fill database information
-```
-
-7. Update boilerplate
+7. Update composer
 
 ```
-pull origin master
+composer update
+```
+
+8. Install theme
+
+```
+grunt prompt
 ```
 
 
-Copy everything from boilerplate to new folder except git and node_modules.
+
+
+
+# Install Plugins
+
+## Yoast SEO
+
+1. go to folder
+
+Go to folder in terminal
+
+```
+cd /var/www/<folder-name>
+```
+
+2. install Yoast
+
+```
+composer require wpackagist-plugin/wordpress-seo
+```
+
+3. Update composer
+```
+composer update
+```
