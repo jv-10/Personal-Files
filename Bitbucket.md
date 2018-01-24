@@ -38,7 +38,7 @@ cd <path_to_local_repo>
 ```
 3. Enter git add --all at the command line to add the files or changes to the repository.
 ```
-git add --all
+git add .
 ```
 4. Enter git commit -m '<commit_message>' at the command line to commit new files/changes to the local repository. For the <commit_message> , you can enter anything that describes the changes you are committing.
 ```
