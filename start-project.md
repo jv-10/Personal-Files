@@ -49,7 +49,7 @@ copy yaml from private to web
 
 10. change grunt file
 
-Change grunt theme name to <project-name>
+Change gruntfile.js theme name to <project-name>
 
 
 
