@@ -41,6 +41,16 @@ composer update
 grunt prompt
 ```
 
+9. If errors with yaml
+
+```
+copy yaml from private to web
+```
+
+10. change grunt file
+
+Change grunt theme name to <project-name>
+
 
 
 
