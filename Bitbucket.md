@@ -1,6 +1,49 @@
-# Clone and Push from Bitbucket using git
+# Create, Clone and Push from Bitbucket using git
 
-Clone and Push from [Bitbucket](https://bitbucket.org/)
+Create, Clone and Push from [Bitbucket](https://bitbucket.org/)
+
+### Create
+
+1. Create Project in Bitbucket
+
+2. Create Repository 
+
+name format:
+```
+ wp-theme-<theme name>
+ ```
+
+3. Choose "I have a existing project"
+
+4. Open Terminal
+
+5. Switch to your repository's directory
+
+```
+cd /path/to/your/repo
+ ```
+
+6. Create initial commit
+
+```
+git init (create empty repo)
+ ```
+ ```
+git add .
+ ```
+ ```
+git commit -m <initial commit>
+ ```
+
+7. Connect your existing repository to Bitbucket
+
+```
+git remote add origin git@bitbucket.org:<...........>
+ ```
+```
+git push -u origin master
+ ```
+
 
 ### Pull
 
@@ -17,7 +60,7 @@ Clone from Bitbucket
 
 CLONE OVER HTTPS:
 ```
- $ git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git
+ $ git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git <name-of-project>
  ```
 CLONE OVER SSH:
 ```
@@ -49,3 +92,6 @@ git commit -m '<commit_message>'
 git push -u origin master
 ```
 6. If prompted for authentication, enter your Bitbucket password.
+
+
+
